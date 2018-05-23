@@ -13,7 +13,6 @@ r = session.get(url.format(subName))
 
 mods = []
 
-schedule.
 def query():
     if str(r) == "<Response [403]>":
         print("Subreddit is private. Can't continue.")
