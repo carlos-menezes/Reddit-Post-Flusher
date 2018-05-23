@@ -1,7 +1,11 @@
 # Reddit Submission Flusher
 #### A bot that delete all submissions except mod posts.
 
-> Hello, I am looking for bot who can delete all submissions every week (every monday) except mod posts. Can anyone help me regarding this topic.
+Posted by [GBWI](https://www.reddit.com/user/GBWI) in [/r/RequestABot](https://www.reddit.com/r/RequestABot):
+
+> Hello.
+> I am looking for bot who can delete all submissions every week (every monday) except mod posts.
+> Can anyone help me regarding this topic?
 
 ***
 
