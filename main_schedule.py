@@ -13,7 +13,8 @@ r = session.get(url.format(subName))
 
 mods = []
 
-schedule.
+schedule.every().monday.at.("00:00").do(query)
+
 def query():
     if str(r) == "<Response [403]>":
         print("Subreddit is private. Can't continue.")
@@ -29,3 +30,7 @@ def query():
         for submission in reddit.subreddit(subName).new(limit=None):
             if submission.author not in mods:
                 submission.mod.remove()
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
