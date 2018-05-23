@@ -1,1 +1,1 @@
-# Reddit Post Flusher
+# Reddit Submission Flusher
